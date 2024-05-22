@@ -1,0 +1,112 @@
+a{
+    text-decoration: none;
+}
+#language-toggle{
+    display: inline-flex;
+            align-items: center; /* Вертикальное выравнивание содержимого */
+            font-family: var(--oswald);
+            font-size: 16px;
+            color: var(--brown);
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+}
+#language-toggle::before{
+    content: "";
+    background: url(../img/ukraine.png) center/contain no-repeat;
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.line-contact-header{
+    background-color: var(--grey2);
+    padding: 6px 24px 6px 12px;
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    position: fixed;
+    z-index: 99;
+}
+.line-contact-header__tels{
+    display: flex;
+}
+.header__phone{
+    margin-right: 20px;
+}
+
+.header__phone img{
+    max-width: 15px;
+    width: 100%;
+    margin-right: 5px;
+}
+.header-social-media img{
+    max-width: 25px;
+    width: 100%;
+}
+.header__phone{
+    display: flex;
+    align-items: center;
+}
+.header__phone a{
+    font-family: var(--oswald);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--white);
+}
+.header__phone a span{
+    font-family: var(--play);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--white);
+}
+.header__social-media{
+    display: flex;
+}
+.header-social-media{
+    margin-right: 10px;
+}
+.header-social-media:last-child{
+    margin-right: 0px;
+}
+
+/* menu */
+.menu-icon{
+    display: none;
+}
+.logo-header{
+    max-width: 200px;
+}
+.logo-header img{
+    width: 100%;
+}
+.site-nav{
+    padding: 50px 12px 12px 12px;
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    justify-content: space-between;
+    max-width: 1300px;
+
+}
+.site-nav .menu{
+    max-width: 350px;
+    width: 100%;
+}
+.site-nav .menu ul{
+    display: flex;
+    align-items: center;
+}
+.site-nav .menu ul li a{
+    color: var(--brown);
+    font-family: var(--oswald);
+    font-weight: 200;
+    font-size: 16px;
+    transition: 0.5s;
+    margin-right: 25px;
+}
+.site-nav .menu ul li a:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}

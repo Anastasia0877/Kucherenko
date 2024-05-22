@@ -1,0 +1,10 @@
+:root{
+    --black:#000000;
+    --white:#FFFFFF;
+    --brown:#484138;
+    --grey1:#3D3D3D;
+    --grey2:#393D3C;
+
+    --play:"Playfair Display SC", serif;
+    --oswald: "Oswald", sans-serif;
+}
