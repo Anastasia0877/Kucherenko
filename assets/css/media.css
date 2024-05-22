@@ -372,7 +372,7 @@ header .menu ul li {
         display: flex;
         justify-content: center;
     }
-    .header__social-media{
+    header .header__social-media{
         display: none;
     }
     header .header__phone a{
