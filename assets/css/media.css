@@ -376,12 +376,14 @@ header .menu ul li {
         display: none;
     }
     header .header__phone a{
-        font-size: 10px;
+        font-size: 12px;
     }
     header .header__phone a span{
-        font-size: 10px;
+        font-size: 12px;
     }
-    
+    .line-contact-header{
+        padding: 6px 12px 6px 12px;
+    }
 }
 
 @media screen and (max-width: 700.98px) {
